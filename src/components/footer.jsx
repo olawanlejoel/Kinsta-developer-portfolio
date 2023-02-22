@@ -14,21 +14,21 @@ const footer = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <i class="fa-brands fa-twitter"></i>
+                        <i className="fa-brands fa-twitter"></i>
                     </a>
                     <a
                         href="https://github.com/olawanlejoel"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <i class="fa-brands fa-github"></i>
+                        <i className="fa-brands fa-github"></i>
                     </a>
                     <a
                         href="https://www.linkedin.com/in/olawanlejoel/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <i class="fa-brands fa-linkedin"></i>
+                        <i className="fa-brands fa-linkedin"></i>
                     </a>
                 </div>
             </div>

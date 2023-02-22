@@ -5,7 +5,7 @@ const Hero = () => {
         <div className="hero-container">
             <Image src='/images/profile.jpeg' className="profile-img" width={300} height={300} />
             <div className="hero-text">
-                <h1>Hey, I'm Joel 👋</h1>
+                <h1>Hey, I'm Joe 👋</h1>
                 <p>
                     I'm a software developer based in Lagos, Nigeria. I specialize in building (and occasionally designing) exceptional websites, applications, and everything in between.
                 </p>
@@ -15,21 +15,21 @@ const Hero = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <i class="fa-brands fa-twitter"></i>
+                        <i className="fa-brands fa-twitter"></i>
                     </a>
                     <a
                         href="https://github.com/olawanlejoel"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <i class="fa-brands fa-github"></i>
+                        <i className="fa-brands fa-github"></i>
                     </a>
                     <a
                         href="https://www.linkedin.com/in/olawanlejoel/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <i class="fa-brands fa-linkedin"></i>
+                        <i className="fa-brands fa-linkedin"></i>
                     </a>
                 </div>
             </div>
