@@ -1,10 +1,9 @@
 import Image from "next/image"
-import myImg from '../../public/images/profile.jpeg'
 
 const Hero = () => {
     return (
         <div className="hero-container">
-            <Image src={myImg} className="profile-img" width={300} height={300} />
+            <Image src='/images/profile.jpeg' className="profile-img" width={300} height={300} />
             <div className="hero-text">
                 <h1>Hey, I'm Joe 👋</h1>
                 <p>
