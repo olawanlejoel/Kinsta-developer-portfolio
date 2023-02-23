@@ -339,13 +339,13 @@ hr {
   gap: 0 5px;
 }
 
-.project-card .small-icons i {
+.project-card .small-icons a {
   margin-right: 5px;
   cursor: pointer;
   transition: all .5s ease;
 }
 
-.project-card .small-icons i:hover {
+.project-card .small-icons a:hover {
   color: #FFCC17;
 }
 
