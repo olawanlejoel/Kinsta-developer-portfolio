@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Contact = () => {
     return (
         <div className="contact-container">
@@ -10,4 +8,4 @@ const Contact = () => {
     )
 }
 
-export default Contact
+export default Contact;

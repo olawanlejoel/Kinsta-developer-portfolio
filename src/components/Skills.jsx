@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Skills = () => {
     return (
         <div className="skills-container">
@@ -34,4 +32,4 @@ const Skills = () => {
     )
 }
 
-export default Skills
+export default Skills;

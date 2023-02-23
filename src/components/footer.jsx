@@ -1,6 +1,4 @@
-import React from 'react'
-
-const footer = () => {
+const Footer = () => {
     return (
         <>
             <hr />
@@ -11,6 +9,7 @@ const footer = () => {
                 <div className="social_icons">
                     <a
                         href="https://twitter.com/olawanle_joel"
+                        aria-label="Twitter"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -18,6 +17,7 @@ const footer = () => {
                     </a>
                     <a
                         href="https://github.com/olawanlejoel"
+                        aria-label="GitHub"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -25,6 +25,7 @@ const footer = () => {
                     </a>
                     <a
                         href="https://www.linkedin.com/in/olawanlejoel/"
+                        aria-label="LinkedIn"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -36,4 +37,4 @@ const footer = () => {
     )
 }
 
-export default footer
+export default Footer;

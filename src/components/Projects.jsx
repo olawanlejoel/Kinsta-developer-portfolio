@@ -1,4 +1,4 @@
-import { projectData } from './data.js'
+import { projectData } from './data.js';
 
 const Projects = () => {
     return (
@@ -24,4 +24,4 @@ const Projects = () => {
     )
 }
 
-export default Projects
+export default Projects;

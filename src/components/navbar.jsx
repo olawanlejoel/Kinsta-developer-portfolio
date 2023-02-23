@@ -1,6 +1,6 @@
-import Link from "next/link"
+import Link from "next/link";
 
-const navbar = () => {
+const Navbar = () => {
     return (
         <div className="nav-container">
             <div className="logo">
@@ -8,9 +8,9 @@ const navbar = () => {
                     Joe's Portfolio
                 </Link>
             </div>
-            <a href="" className="cta-btn">Resume</a>
+            <a href="https://docs.google.com/document/d/10ZosQ38Z3804KYPcb_aZp9bceoXK-q3GrkHjYshqIRE/edit?usp=sharing" className="cta-btn">Resume</a>
         </div>
     )
 }
 
-export default navbar
+export default Navbar;
