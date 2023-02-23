@@ -10,12 +10,12 @@ const Projects = () => {
                         <div className="project-header">
                             <i className="fa-regular fa-folder-open folder-icon"></i>
                             <div className="small-icons">
-                                <a href=""><i className="fa-brands fa-github"></i></a>
-                                <a href=""><i className="fa-solid fa-up-right-from-square"></i></a>
+                                <a href={project.gitHubLink}><i className="fa-brands fa-github"></i></a>
+                                <a href={project.liveLink}><i className="fa-solid fa-up-right-from-square"></i></a>
                             </div>
                         </div>
                         <h3>{project.title}</h3>
-                        <p>A simple Todo List App built with JavaScript. All datas are stored in localstorage. It helps users check list out their plans and tick as they do them.</p>
+                        <p>{project.description}</p>
                     </div>
                 ))
                 }

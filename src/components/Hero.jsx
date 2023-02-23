@@ -12,6 +12,7 @@ const Hero = () => {
                 <div className="social-icons">
                     <a
                         href="https://twitter.com/olawanle_joel"
+                        aria-label="Twitter"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -19,6 +20,7 @@ const Hero = () => {
                     </a>
                     <a
                         href="https://github.com/olawanlejoel"
+                        aria-label="GitHub"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -26,6 +28,7 @@ const Hero = () => {
                     </a>
                     <a
                         href="https://www.linkedin.com/in/olawanlejoel/"
+                        aria-label="LinkedIn"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
