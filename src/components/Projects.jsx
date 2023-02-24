@@ -1,8 +1,5 @@
 import { projectData } from './data.js';
 
-import { FaFolderOpen, FaExternalLinkAlt } from 'react-icons/fa';
-import { AiFillGithub } from "react-icons/ai";
-
 const Projects = () => {
     return (
         <div className="projects-container">
@@ -11,10 +8,10 @@ const Projects = () => {
                 {projectData && projectData.map((project) => (
                     <div className="project-card" key={project.id}>
                         <div className="project-header">
-                            <FaFolderOpen className='folder-icon' />
+                            <i className="fa-regular fa-folder-open folder-icon"></i>
                             <div className="small-icons">
-                                <a href={project.gitHubLink}><AiFillGithub /></a>
-                                <a href={project.liveLink}><FaExternalLinkAlt /></a>
+                                <a href={project.gitHubLink}><i className="fa-brands fa-github"></i></a>
+                                <a href={project.liveLink}><i className="fa-solid fa-up-right-from-square"></i></a>
                             </div>
                         </div>
                         <h3>{project.title}</h3>

@@ -1,7 +1,5 @@
 import Image from "next/image";
 
-import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin } from "react-icons/ai";
-
 const Hero = () => {
     return (
         <div className="hero-container">
@@ -18,7 +16,7 @@ const Hero = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <AiOutlineTwitter />
+                        <i className="fa-brands fa-twitter"></i>
                     </a>
                     <a
                         href="https://github.com/olawanlejoel"
@@ -26,7 +24,7 @@ const Hero = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <AiFillGithub />
+                        <i className="fa-brands fa-github"></i>
                     </a>
                     <a
                         href="https://www.linkedin.com/in/olawanlejoel/"
@@ -34,7 +32,7 @@ const Hero = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <AiFillLinkedin />
+                        <i className="fa-brands fa-linkedin"></i>
                     </a>
                 </div>
             </div>
